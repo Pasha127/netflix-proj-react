@@ -1,11 +1,13 @@
 import { useState, useEffect } from "react";
 import { Carousel, Card } from "react-bootstrap";
 import MovieCarousel from "./MovieCarousel";
+import MyNav from "./MyNav";
 
 const Home = (props) =>{
     /* const [color, setColor] = useState(""); */
     return(
         <>
+        <MyNav></MyNav>
         <MovieCarousel/>
         </>
     )
